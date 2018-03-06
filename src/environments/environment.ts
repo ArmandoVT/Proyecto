@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyClGfs9GPwMmX0j5GDQjNGwDXpt8ZC5LVI",
+    authDomain: "scroll-infinito.firebaseapp.com",
+    databaseURL: "https://scroll-infinito.firebaseio.com",
+    projectId: "scroll-infinito",
+    storageBucket: "scroll-infinito.appspot.com",
+    messagingSenderId: "432208948664"
+  }
 };
